@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/* Animations on the page */
+
+@keyframes transitionLeft {
+    from {
+        margin-left: -200%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+
+}
+
+
+@keyframes transitionTop {
+    from {
+
+
+        top: 100%;
+    }
+
+    to {
+        margin-right: 0%;
+    }
+
+}
+
+
+.bannerImagegirl {
+    animation: transitionLeft 1.4s;
+}
+
+
+.right {
+    animation: transitionTop 1.4s;
+}
+
+.home-line {
+    animation: transitionTop 1.4s;
+
+}
+
+strong {
+    animation: transitionTop 1.4s;
+}
+
+
+
+/* Animation CSS ends here */
+
+html {
+    overflow-x: hidden;
+}
+
+.header {
+    /* background-color: #9DB2BF; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 18px 129px 19px 109px;
+}
+
+.header img {
+    height: 56px;
+    transition: 0.5s ease-in;
+
+}
+
+.navbar a {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+    margin-left: 46px;
+    letter-spacing: 0.5px;
+}
+
+.heads {
+    background-image: url(/assets/sky.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: #646464; */
+    height: 110vh;
+    /* width: 80vw; */
+    z-index: -1;
+}
+
+
+
+.login {
+    border-radius: 5px;
+    background-color: #27374D;
+    border: #27374D;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.home-line {
+    position: absolute;
+    top: 56%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #1d2b3e;
+    width: 50%;
+    text-align: center;
+}
+
+strong {
+    color: #1d2b3e;
+}
+
+/* .main img {
+    height: 500px;
+    position: relative;
+    bottom: 50px;
+    left: 73px;
+} */
+
+::placeholder {
+    color: #ffffff;
+}
+
+
+
+
+footer {
+    height: 18vh;
+    background-color: #2a3a51;
+    color: rgb(205, 203, 203);
+}
+
+
+
+
+
+.container {
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+    /* background-color: #7b99d5; */
+
+}
+
+.link {
+    list-style: none;
+    margin: 40px 13px 60px 80px;
+    margin-bottom: 20px;
+}
+
+.link li {
+    padding-bottom: 18px;
+    font-size: 15px;
+}
+
+.link li a:hover {
+    color: rgb(198, 198, 198);
+    text-decoration: underline;
+}
+
+.bg {
+    background-color: #9faeb9;
+    background-image: url(/assets/photos/sky.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    height: 178vh;
+    /* background-color: rgb(191, 207, 220); */
+}
+
+.test{
+    height: 115vh;
+    background-color:rgb(65, 97, 97) ;
+}
+.grid-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fit, 301px);
+    padding: 0px;
+    column-gap: 173px;
+    row-gap: 80px;
+    align-items: center;
+    justify-items: center;
+    padding-left: 253px;
+
+}
+
+
+h2 {
+    letter-spacing: 10px;
+    color: black;
+    text-align: center;
+    word-spacing: 3px;
+    padding: 40px 0 0 0;
+    font-size: 32px;
+}
+
+.srvc {
+	word-wrap: break-word;
+	width: 300px;
+	text-align: left;
+	background-color: #ffffff;
+	width: 27rem;
+	height: 12rem;
+	padding: 24px;
+    border-radius: 5px;
+}
+
+.srvc img {
+    height: 15px;
+}
+
+.icon-calendar{
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+
+p,
+h4 {
+    color: #1d2b3e;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+h4 {
+    color: black;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+p {
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+    font-family: 'Noto Sans Vithkuqi', sans-serif;
+    color: black;
+    font-size: 12px;
+}
+
+/* .srvc:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transition: 0.6s;
+    transform: scale(1.1);
+} */
+
+
+i {
+    display: none;
+}
+
+
+.nav_link:hover {
+    color: #000000;
+
+}
+
+/* Tutorial */
+.courses {
+    height: 100vh;
+    background-color: #ededed;
+}
+
+.hdng {
+    width: 37%;
+    margin-left: 10rem;
+    padding-top: 7rem;
+}
+
+.hdng p {
+    font-size: 15px;
+    color: #3a3a3a;
+    line-height: 2;
+}
+
+.hdng h2 {
+    text-align: justify;
+    /* color: #9DB2BF; */
+    color: #293f4d;
+    font-size: 3rem;
+}
+
+.hdng img {
+	height: 60vh;
+	position: absolute;
+	left: 63%;
+	top: 120rem;
+}
+.hdng button {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    background-color: #9b3939;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+
+input:focus {
+    outline: 1px solid #a1b5c4;
+}
+
+.Subscribe {
+    position: relative;
+    top: 5vh;
+    left: 39.1vw;
+    width: 13rem;
+    padding: 11px 0;
+    border: none;
+    background-color: #53689b;
+    border-radius: 5px;
+}
+
+/* label[type="checkbox"]{
+    color: black;
+}
+
+*/
+.subs {
+    height: 48px;
+    transform: rotate(-526deg);
+    position: relative;
+    left: 48vw;
+    top: -3vh;
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1d2b3e;
+    font-size: 2rem;
+}
+
+/* .left img{
+    height: 70vh;
+    z-index: -1;
+} */
+
+.left img {
+	height: 63vh;
+	/* z-index: -1; */
+	/* position: absolute; */
+	position: absolute;
+	left: 66%;
+	top: 24%;
+}
+
+.ed-exp {
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	justify-items: first baseline;
+	justify-self: revert-layer;
+	justify-content: space-evenly;
+	/* margin-top: 12px; */
+	padding-top: 87px;
+}
+
+
+
+
+
+.contact{
+    display: flex;
+    height: 110vh;
+}
+
+form{
+    width: 55vw;
+    padding: 9rem;
+    height: 90vh;
+    
+}
+
+.form-group{
+    margin: 1rem;
+    
+}
+
+.form-group label{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input{
+    margin: 12px;
+    border:1px solid #000000;
+    border-radius: 5px;
+    width: 14rem;
+    height: 2rem;
+}
+
+textarea{
+    border:1px solid #000000;
+    width: 14rem;
+    /* height: 12rem; */
+}
+
+.contact button{
+    border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  background-color: #9b3939;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.details h3{
+    color: black;
+}
+
+.details{
+    padding: 9rem 0 9rem 0;
+}
+
+.info{
+    margin: 3rem 0 3rem 0;
+}
+
+footer a img{
+    height: 3rem;
+    padding: 8px;
+    margin: 20px 180px;
+    
+}
+
